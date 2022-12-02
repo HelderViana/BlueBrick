@@ -12,7 +12,7 @@ namespace BlueBrick.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.3.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -241,39 +241,6 @@ namespace BlueBrick.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
-<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <string>65|1||</string>
-  <string>72|1||</string>
-  <string>67|4||</string>
-  <string>68|5||</string>
-  <string>69|6||</string>
-  <string>70|7||</string>
-  <string>36|3||</string>
-  <string>51|3||</string>
-  <string>37|2||</string>
-  <string>66|8||</string>
-  <string>76|9||</string>
-  <string>75|10||</string>
-  <string>23|0|32087.8|0</string>
-  <string>18|0|2865.8|0</string>
-  <string>11|0|2867.8|1</string>
-  <string>17|0|2867.8|0</string>
-  <string>24|0|2861.8|0</string>
-  <string>10|0|2859.8|0</string>
-  <string>5|0|FLEX.GROUP|0</string>
-</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection ShortcutKey {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["ShortcutKey"]));
-            }
-            set {
-                this["ShortcutKey"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("None")]
         public global::System.Windows.Forms.Keys MouseDuplicateSelectionKey {
             get {
@@ -281,20 +248,6 @@ namespace BlueBrick.Properties {
             }
             set {
                 this["MouseDuplicateSelectionKey"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
-            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
-            "tring />\r\n</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection RecentFiles {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["RecentFiles"]));
-            }
-            set {
-                this["RecentFiles"] = value;
             }
         }
         
@@ -480,30 +433,6 @@ namespace BlueBrick.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
-<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <string>Baseplate</string>
-  <string>Road</string>
-  <string>Track</string>
-  <string>Train</string>
-  <string>Town</string>
-  <string>Space</string>
-  <string>Table</string>
-  <string>Custom</string>
-  <string>Logo</string>
-  <string>Duplo</string>
-</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection PartLibTabOrder {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["PartLibTabOrder"]));
-            }
-            set {
-                this["PartLibTabOrder"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("White")]
         public global::System.Drawing.Color PartLibBackColor {
             get {
@@ -559,32 +488,6 @@ namespace BlueBrick.Properties {
             }
             set {
                 this["PartLibBubbleInfoPartDescription"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
-<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <string>Baseplate11</string>
-  <string>Road11</string>
-  <string>Track10</string>
-  <string>Train Set11</string>
-  <string>Town10</string>
-  <string>Train10</string>
-  <string>Space10</string>
-  <string>Castle10</string>
-  <string>Table10</string>
-  <string>Custom10</string>
-  <string>Logo10</string>
-  <string>Duplo10</string>
-</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection UIPartLibDisplayConfig {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["UIPartLibDisplayConfig"]));
-            }
-            set {
-                this["UIPartLibDisplayConfig"] = value;
             }
         }
         
@@ -1269,6 +1172,103 @@ namespace BlueBrick.Properties {
             }
             set {
                 this["DisplayWarningMessageForOverridingExportFiles"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+  <string>65|1||</string>
+  <string>72|1||</string>
+  <string>67|4||</string>
+  <string>68|5||</string>
+  <string>69|6||</string>
+  <string>70|7||</string>
+  <string>36|3||</string>
+  <string>51|3||</string>
+  <string>37|2||</string>
+  <string>66|8||</string>
+  <string>76|9||</string>
+  <string>75|10||</string>
+  <string>23|0|32087.8|0</string>
+  <string>18|0|2865.8|0</string>
+  <string>11|0|2867.8|1</string>
+  <string>17|0|2867.8|0</string>
+  <string>24|0|2861.8|0</string>
+  <string>10|0|2859.8|0</string>
+  <string>5|0|FLEX.GROUP|0</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection ShortcutKey {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["ShortcutKey"]));
+            }
+            set {
+                this["ShortcutKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsd=\"http://www.w3." +
+            "org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n  <s" +
+            "tring />\r\n</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection RecentFiles {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["RecentFiles"]));
+            }
+            set {
+                this["RecentFiles"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+  <string>Baseplate</string>
+  <string>Road</string>
+  <string>Track</string>
+  <string>Train</string>
+  <string>Town</string>
+  <string>Space</string>
+  <string>Table</string>
+  <string>Custom</string>
+  <string>Logo</string>
+  <string>Duplo</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection PartLibTabOrder {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["PartLibTabOrder"]));
+            }
+            set {
+                this["PartLibTabOrder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+  <string>Baseplate11</string>
+  <string>Road11</string>
+  <string>Track10</string>
+  <string>Train Set11</string>
+  <string>Town10</string>
+  <string>Train10</string>
+  <string>Space10</string>
+  <string>Castle10</string>
+  <string>Table10</string>
+  <string>Custom10</string>
+  <string>Logo10</string>
+  <string>Duplo10</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection UIPartLibDisplayConfig {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["UIPartLibDisplayConfig"]));
+            }
+            set {
+                this["UIPartLibDisplayConfig"] = value;
             }
         }
     }

@@ -56,38 +56,8 @@
     <Setting Name="StartSavedMipmapLevel" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="ShortcutKey" Type="System.Collections.Specialized.StringCollection" Scope="User">
-      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;string&gt;65|1||&lt;/string&gt;
-  &lt;string&gt;72|1||&lt;/string&gt;
-  &lt;string&gt;67|4||&lt;/string&gt;
-  &lt;string&gt;68|5||&lt;/string&gt;
-  &lt;string&gt;69|6||&lt;/string&gt;
-  &lt;string&gt;70|7||&lt;/string&gt;
-  &lt;string&gt;36|3||&lt;/string&gt;
-  &lt;string&gt;51|3||&lt;/string&gt;
-  &lt;string&gt;37|2||&lt;/string&gt;
-  &lt;string&gt;66|8||&lt;/string&gt;
-  &lt;string&gt;76|9||&lt;/string&gt;
-  &lt;string&gt;75|10||&lt;/string&gt;
-  &lt;string&gt;23|0|32087.8|0&lt;/string&gt;
-  &lt;string&gt;18|0|2865.8|0&lt;/string&gt;
-  &lt;string&gt;11|0|2867.8|1&lt;/string&gt;
-  &lt;string&gt;17|0|2867.8|0&lt;/string&gt;
-  &lt;string&gt;24|0|2861.8|0&lt;/string&gt;
-  &lt;string&gt;10|0|2859.8|0&lt;/string&gt;
-  &lt;string&gt;5|0|FLEX.GROUP|0&lt;/string&gt;
-&lt;/ArrayOfString&gt;</Value>
-    </Setting>
     <Setting Name="MouseDuplicateSelectionKey" Type="System.Windows.Forms.Keys" Scope="User">
       <Value Profile="(Default)">None</Value>
-    </Setting>
-    <Setting Name="RecentFiles" Type="System.Collections.Specialized.StringCollection" Scope="User">
-      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;string /&gt;
-&lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="MaxRecentFilesNum" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">4</Value>
@@ -134,21 +104,6 @@
     <Setting Name="UIToolSplitContainerDistance" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">230</Value>
     </Setting>
-    <Setting Name="PartLibTabOrder" Type="System.Collections.Specialized.StringCollection" Scope="User">
-      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;string&gt;Baseplate&lt;/string&gt;
-  &lt;string&gt;Road&lt;/string&gt;
-  &lt;string&gt;Track&lt;/string&gt;
-  &lt;string&gt;Train&lt;/string&gt;
-  &lt;string&gt;Town&lt;/string&gt;
-  &lt;string&gt;Space&lt;/string&gt;
-  &lt;string&gt;Table&lt;/string&gt;
-  &lt;string&gt;Custom&lt;/string&gt;
-  &lt;string&gt;Logo&lt;/string&gt;
-  &lt;string&gt;Duplo&lt;/string&gt;
-&lt;/ArrayOfString&gt;</Value>
-    </Setting>
     <Setting Name="PartLibBackColor" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">White</Value>
     </Setting>
@@ -163,23 +118,6 @@
     </Setting>
     <Setting Name="PartLibBubbleInfoPartDescription" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
-    </Setting>
-    <Setting Name="UIPartLibDisplayConfig" Type="System.Collections.Specialized.StringCollection" Scope="User">
-      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;string&gt;Baseplate11&lt;/string&gt;
-  &lt;string&gt;Road11&lt;/string&gt;
-  &lt;string&gt;Track10&lt;/string&gt;
-  &lt;string&gt;Train Set11&lt;/string&gt;
-  &lt;string&gt;Town10&lt;/string&gt;
-  &lt;string&gt;Train10&lt;/string&gt;
-  &lt;string&gt;Space10&lt;/string&gt;
-  &lt;string&gt;Castle10&lt;/string&gt;
-  &lt;string&gt;Table10&lt;/string&gt;
-  &lt;string&gt;Custom10&lt;/string&gt;
-  &lt;string&gt;Logo10&lt;/string&gt;
-  &lt;string&gt;Duplo10&lt;/string&gt;
-&lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="DisplayGeneralInfoWatermark" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
@@ -351,6 +289,68 @@
     </Setting>
     <Setting Name="DisplayWarningMessageForOverridingExportFiles" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShortcutKey" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;65|1||&lt;/string&gt;
+  &lt;string&gt;72|1||&lt;/string&gt;
+  &lt;string&gt;67|4||&lt;/string&gt;
+  &lt;string&gt;68|5||&lt;/string&gt;
+  &lt;string&gt;69|6||&lt;/string&gt;
+  &lt;string&gt;70|7||&lt;/string&gt;
+  &lt;string&gt;36|3||&lt;/string&gt;
+  &lt;string&gt;51|3||&lt;/string&gt;
+  &lt;string&gt;37|2||&lt;/string&gt;
+  &lt;string&gt;66|8||&lt;/string&gt;
+  &lt;string&gt;76|9||&lt;/string&gt;
+  &lt;string&gt;75|10||&lt;/string&gt;
+  &lt;string&gt;23|0|32087.8|0&lt;/string&gt;
+  &lt;string&gt;18|0|2865.8|0&lt;/string&gt;
+  &lt;string&gt;11|0|2867.8|1&lt;/string&gt;
+  &lt;string&gt;17|0|2867.8|0&lt;/string&gt;
+  &lt;string&gt;24|0|2861.8|0&lt;/string&gt;
+  &lt;string&gt;10|0|2859.8|0&lt;/string&gt;
+  &lt;string&gt;5|0|FLEX.GROUP|0&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="RecentFiles" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string /&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="PartLibTabOrder" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;Baseplate&lt;/string&gt;
+  &lt;string&gt;Road&lt;/string&gt;
+  &lt;string&gt;Track&lt;/string&gt;
+  &lt;string&gt;Train&lt;/string&gt;
+  &lt;string&gt;Town&lt;/string&gt;
+  &lt;string&gt;Space&lt;/string&gt;
+  &lt;string&gt;Table&lt;/string&gt;
+  &lt;string&gt;Custom&lt;/string&gt;
+  &lt;string&gt;Logo&lt;/string&gt;
+  &lt;string&gt;Duplo&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="UIPartLibDisplayConfig" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;Baseplate11&lt;/string&gt;
+  &lt;string&gt;Road11&lt;/string&gt;
+  &lt;string&gt;Track10&lt;/string&gt;
+  &lt;string&gt;Train Set11&lt;/string&gt;
+  &lt;string&gt;Town10&lt;/string&gt;
+  &lt;string&gt;Train10&lt;/string&gt;
+  &lt;string&gt;Space10&lt;/string&gt;
+  &lt;string&gt;Castle10&lt;/string&gt;
+  &lt;string&gt;Table10&lt;/string&gt;
+  &lt;string&gt;Custom10&lt;/string&gt;
+  &lt;string&gt;Logo10&lt;/string&gt;
+  &lt;string&gt;Duplo10&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
     </Setting>
   </Settings>
 </SettingsFile>

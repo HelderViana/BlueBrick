@@ -1,4 +1,4 @@
-// BlueBrick, a LEGO(c) layout editor.
+﻿// BlueBrick, a LEGO(c) layout editor.
 // Copyright (C) 2008 Alban NANTY
 //
 // This program is free software: you can redistribute it and/or modify
@@ -31,6 +31,7 @@ namespace BlueBrick
 			{
 				// this two method must be called before the first creation of window
 				Application.EnableVisualStyles();
+				Application.SetHighDpiMode(HighDpiMode.SystemAware);
 				Application.SetCompatibleTextRenderingDefault(false);
 
 				// create the splash screen and show it (in the main thread)

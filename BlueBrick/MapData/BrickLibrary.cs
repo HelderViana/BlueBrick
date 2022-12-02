@@ -18,6 +18,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Drawing.Drawing2D;
+using System.IO;
 
 namespace BlueBrick.MapData
 {
@@ -1232,7 +1233,7 @@ namespace BlueBrick.MapData
 			// clear the color name table and description tables
 			mColorNames.Clear();
 			// try to load the xml file
-			string xmlFileName = Application.StartupPath + @"/config/ColorTable.xml";
+			string xmlFileName = string.Format(@"{0}{1}config{1}ColorTable.xml", Application.StartupPath, Path.DirectorySeparatorChar);
 			if (System.IO.File.Exists(xmlFileName))
 			{
 				System.Xml.XmlReaderSettings xmlSettings = new System.Xml.XmlReaderSettings();
@@ -1304,7 +1305,7 @@ namespace BlueBrick.MapData
 			mConnectionTypes.Add(new ConnectionType(string.Empty, Color.Black, 1.0f, 0.0f));
 
 			// try to load the default xml file
-			string xmlFileName = Application.StartupPath + @"/config/ConnectionTypeList.xml";
+			string xmlFileName = String.Format(@"{0}{1}config{1}ConnectionTypeList.xml", Application.StartupPath, Path.DirectorySeparatorChar);
 			if (System.IO.File.Exists(xmlFileName))
 			{
 				// call the function to load the file (and load the selected connection description)
@@ -1450,7 +1451,7 @@ namespace BlueBrick.MapData
 				// clear the dictionnary before starting
 				mTrackDesignerRegistryFiles.Clear();
 				// try to load the rempa file
-				string registryFileName = Application.StartupPath + @"/config/TDRegistryList.txt";
+				string registryFileName = String.Format(@"{0}{1}config{1}TDRegistryList.txt",  Application.StartupPath, Path.DirectorySeparatorChar );
 				System.IO.StreamReader textReader = new System.IO.StreamReader(registryFileName);
 				char[] lineSpliter = { '=' };
 				while (!textReader.EndOfStream)

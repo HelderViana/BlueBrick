@@ -127,12 +127,12 @@ namespace BlueBrick
 
 		public static string sFullPathForCustomParts
 		{
-			get { return (PartLibraryPanel.sFullPathForLibrary + @"/" + PartLibraryPanel.sFolderNameForCustomParts + @"/"); }
+			get { return (PartLibraryPanel.sFullPathForLibrary + Path.DirectorySeparatorChar + PartLibraryPanel.sFolderNameForCustomParts + Path.DirectorySeparatorChar); }
 		}
 
 		public static string sFullPathForLibrary
 		{
-			get { return (Application.StartupPath + @"/parts"); }
+			get { return (Application.StartupPath + Path.DirectorySeparatorChar + @"parts"); }
 		}
 		#endregion
 
