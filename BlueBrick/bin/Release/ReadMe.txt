@@ -1,5 +1,5 @@
                     +---------------------------+
-                    | BlueBrick version 1.9.1.0 |
+                    | BlueBrick version 1.9.2.0 |
                     +---------------------------+
 
 -------------------------------------------------------------------------------
@@ -142,7 +142,11 @@ Open bugs:
 - REFACTORING (Alban): The two buttons to raise and lower parts in the toolbar should probably change the Altitude of the parts for a brick layer (that's what the users may expect)
 
 Bug fixed in 1.9.2.0:
+- NEW FEATURE (Mattzobricks): Add snapping angles of 11.25° and 5.625° in the rotation snapping menu
+- BUGFIX (Mattzobricks): The download new parts feature was displaying an error (the HTTP request was refused with a 403 error)
 - BUGFIX #62 on Bitbucket (FreeStorm): Text cells on Text Layer is not drawn at the correct position on Linux (thanks @Shevonar for the fix)
+- BUGFIX (Vincent): open the popup modial dialog box on the same screen as the Main Application (when you have multiple screens and run BlueBrick on the second monitor)
+- BUGFIX (Vincent): Make the combo box for the grid size a bit larger in the Grid Layer Properties window
 
 Bug fixed in 1.9.1.0:
 - BUGFIX (Alban): Update the application to download the part package in https instead of http, since the website has moved to https
